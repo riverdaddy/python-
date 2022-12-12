@@ -131,7 +131,7 @@ while (timeit.default_timer() - tStart < 5):           # Run until more than 10 
     
 tD = timeit.default_timer() - tStart                    # After the "at least 10 seconds", get the actual elapsed
 
-sieve.printResults(False, tD, passes)                   # Display outcome
+sieve.printResults(True, tD, passes)                   # Display outcome
 
 
 
